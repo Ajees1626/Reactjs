@@ -1,0 +1,28 @@
+.slider{
+    background-color: antiquewhite;
+    width: 300px;
+    height: 100vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+     
+}
+table {
+    padding: 20px;
+}
+ul{
+    padding: 10px;
+    list-style-type: none;
+}
+h3{
+    background-color: rgb(200, 200, 184);
+    border-radius: 50px;
+    padding: 5px;
+}
+h4{
+   margin-bottom: 5px;
+   padding: 25px;
+}
+li{
+    padding-top: 20px;
+}
