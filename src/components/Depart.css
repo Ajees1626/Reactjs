@@ -1,13 +1,20 @@
 .department {
+    overflow-y: auto;
     width: 100%;
+    color: rgb(65, 41, 149);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.department h1{
+    margin: 50px;
 }
   table,th,td  {
      border-collapse: collapse;
      padding: 40px;
      margin: 30px;
 }
-
+th{
+    color: gray;
+}
 .toggle-btn{
     background-color: rgb(236, 18, 18);
     border: 1px solid rgb(6, 5, 5);
@@ -41,4 +48,6 @@
 .toggle-btn.toggled .thumb{
    left: calc(50px - 25px);
 }
-
+.departmentbox table{
+    overflow-y: auto;
+}

@@ -5,7 +5,7 @@ import {Link, useNavigate} from "react-router";
 
 const Configuration = () => {
 
-    const navigate = useNavigate()
+    
 
   return (
     <div className='Configuration'>
@@ -17,7 +17,7 @@ const Configuration = () => {
           <h3>site Configuration</h3>
           <a href=""><li>Organisation </li></a> 
          <a href=""><li>Branch/Campus </li></a> 
-          <a href=""><Link to='/Department'  >Department</Link></a> 
+          <a href="" className='top'><Link to='/Department'  >Department</Link></a> 
           {/* <a href="" onClick={() => navigate("/Department")}> Department </a>  */}
           <a href=""><li>Teams  </li></a> 
         </ul>

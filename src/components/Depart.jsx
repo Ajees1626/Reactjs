@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import "./Depart.css"
  
+
+ 
 const departments = [
     { code: "HRD", name: "Human Resource", description: "Adipisciing et cillum tempor minim atdquilq exce", createdBy: "Admin", createdOn: "31/05/2025", active: false },
     { code: "ADM", name: "Administration", description: "Lorem consectetur ea", createdBy: "Owner", createdOn: "03/11/2020", active: false },
@@ -10,7 +12,11 @@ const departments = [
     { code: "SAS", name: "Sales", description: "Laboris incididunt amet", createdBy: "Owner", createdOn: "03/12/2024", active: false },
   ];
 
+  
+
 const Department  = () => {
+ 
+   
 
     const [toggled,setToggle] =useState(Array(departments.length).fill(false))
     
@@ -22,10 +28,12 @@ const Department  = () => {
         });
       };
 
+     
+
   return (
     <div className='department'>
         
-        <h2>Department</h2>
+        <h1>Department</h1>
 
         <div className="departmentbox">
     
@@ -55,7 +63,7 @@ const Department  = () => {
             
             
         </table>
-         <button>back</button>
+         <button onClick={() => navigate("/")} >back</button>
          
         </div>
       
